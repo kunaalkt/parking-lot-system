@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Programs\\ParkingLotSystem\\ParkingLotSystem.csproj": {}
+    "D:\\Programs\\parking-lot-system\\ParkingLotSystem.csproj": {}
   },
   "projects": {
-    "D:\\Programs\\ParkingLotSystem\\ParkingLotSystem.csproj": {
+    "D:\\Programs\\parking-lot-system\\ParkingLotSystem.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Programs\\ParkingLotSystem\\ParkingLotSystem.csproj",
+        "projectUniqueName": "D:\\Programs\\parking-lot-system\\ParkingLotSystem.csproj",
         "projectName": "ParkingLotSystem",
-        "projectPath": "D:\\Programs\\ParkingLotSystem\\ParkingLotSystem.csproj",
+        "projectPath": "D:\\Programs\\parking-lot-system\\ParkingLotSystem.csproj",
         "packagesPath": "C:\\Users\\kunaa\\.nuget\\packages\\",
-        "outputPath": "D:\\Programs\\ParkingLotSystem\\obj\\",
+        "outputPath": "D:\\Programs\\parking-lot-system\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.300/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

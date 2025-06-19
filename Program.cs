@@ -47,7 +47,7 @@ class Program
                         Console.Write("Enter Ticket ID: ");
                         string ticketId = Console.ReadLine();
                         var fee = parkingLot.UnparkVehicle(ticketId);
-                        Console.WriteLine($"Vehicle unparked. Fee: ₹{fee}\n");
+                        Console.WriteLine($"Vehicle unparked. Fee: ${fee}\n");
                         break;
                     }
 

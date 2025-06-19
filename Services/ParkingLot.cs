@@ -1,5 +1,5 @@
 ﻿using ParkingLotSystem.Models;
-using ParkingLotSystem.Utils;  // ⬅️ import FeeCalculator
+using ParkingLotSystem.Utils;
 
 namespace ParkingLotSystem.Services
 {
@@ -52,7 +52,7 @@ namespace ParkingLotSystem.Services
             slot.OccupyingVehicle = null;
 
             var duration = (DateTime.Now - ticket.EntryTime).TotalHours;
-            decimal fee = FeeCalculator.CalculateFee(ticket.Vehicle.Type, duration);  // ⬅️ Moved here
+            decimal fee = FeeCalculator.CalculateFee(ticket.Vehicle.Type, duration);
 
             activeTickets.Remove(ticketId);
             return fee;
